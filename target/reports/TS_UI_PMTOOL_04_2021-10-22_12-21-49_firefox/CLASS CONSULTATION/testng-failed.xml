@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CLASS CONSULTATION]" guice-stage="DEVELOPMENT">
+  <parameter name="suite" value="true"/>
+  <test thread-count="5" name="TC_UI_PMTOOL_04_004(failed)">
+    <classes>
+      <class name="test_suites.TS_UI_PMTOOL_04.TC_UI_PMTOOL_04_004">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="quitBrowser"/>
+          <include name="catchExceptions"/>
+          <include name="TC_UI_PMTOOL_04_004_Move_Tasks"/>
+        </methods>
+      </class> <!-- test_suites.TS_UI_PMTOOL_04.TC_UI_PMTOOL_04_004 -->
+    </classes>
+  </test> <!-- TC_UI_PMTOOL_04_004(failed) -->
+</suite> <!-- Failed suite [CLASS CONSULTATION] -->

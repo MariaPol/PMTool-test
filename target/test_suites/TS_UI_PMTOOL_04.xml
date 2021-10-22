@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CLASS CONSULTATION">
+	<parameter name="suite" value="true" />
+	<test name="TC_UI_PMTOOL_04_001">
+		<classes>
+			<class name="test_suites.TS_UI_PMTOOL_04.TC_UI_PMTOOL_04_001"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_PMTOOL_04_002">
+		<classes>
+			<class name="test_suites.TS_UI_PMTOOL_04.TC_UI_PMTOOL_04_002"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_PMTOOL_04_003">
+		<classes>
+			<class name="test_suites.TS_UI_PMTOOL_04.TC_UI_PMTOOL_04_003"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_PMTOOL_04_004">
+		<classes>
+			<class name="test_suites.TS_UI_PMTOOL_04.TC_UI_PMTOOL_04_004"></class>
+		</classes>
+	</test>
+	<test name="TC_UI_PMTOOL_04_005">
+		<classes>
+			<class name="test_suites.TS_UI_PMTOOL_04.TC_UI_PMTOOL_04_005"></class>
+		</classes>
+	</test>
+</suite> 
