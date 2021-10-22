@@ -12,22 +12,17 @@ public class TC_UI_PMTOOL_02_003 extends BaseTest {
                 .navigateToSignUp()
                 .log("2. Fill the form without the mandatory fields and submit")
                 .signUpValidationMessages(getTestCaseData(1))
-                .log("Verify that a validation message is displayed")
+                .log("3. Verify that a validation message is displayed")
                 .verifyValidationMandatoryFields()
-                .log("3. Enter a wrong format email and submit")
+                .log("4. Enter a wrong format email and submit")
                 .clearFields()
                 .signUpValidationMessages(getTestCaseData(2))
-                .log("Verify that a validation message is displayed")
+                .log("5. Verify that a validation message is displayed")
                 .verifyValidationEmailFormat()
-                .log("4. Enter an email of an existing user and submit")
+                .log("6. Enter an email of an existing user and submit")
                 .clearFields()
                 .signUpValidationMessages(getTestCaseData(3))
-                .log("Verify that a validation message is displayed")
-                .verifyValidationExistingEmail()
-                .log("5. Enter only mandatory fields and submit")
-                .clearFields()
-                .signUp(getTestCaseData(4))
-                .log("6. Verify that the sign up has been completed")
-                .verifySuccessSignUp();
+                .log("7. Verify that a validation message is displayed")
+                .verifyValidationExistingEmail();
     }
 }

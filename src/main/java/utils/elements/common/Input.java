@@ -21,8 +21,6 @@ public class Input extends BaseTest {
             } else {
                 System.out.println("Not possible to entry data.");
             }
-        } else {
-            System.out.println("The Input field is null or empty.");
         }
     }
 

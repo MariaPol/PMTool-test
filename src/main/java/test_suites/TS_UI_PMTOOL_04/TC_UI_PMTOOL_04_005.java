@@ -27,10 +27,10 @@ public class TC_UI_PMTOOL_04_005 extends BaseTest {
                 .inputData(getTestCaseData(1))
                 .log("7. Verify that a validation message is displayed")
                 .verifyValidationMandatoryFields()
-                .log("6. Enter only mandatory fields and submit")
+                .log("8. Enter only mandatory fields and submit")
                 .clearFields()
                 .inputData(getTestCaseData(2))
-                .log("7. Verify that a validation message is displayed")
+                .log("9. Verify that a validation message is displayed")
                 .verifySuccessCreation(getTestCaseData());
     }
 }

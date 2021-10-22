@@ -21,15 +21,15 @@ public class TC_UI_PMTOOL_04_003 extends BaseTest {
                 .inputData(getTestCaseData())
                 .log("5. Verify that the project has been created")
                 .verifySuccessCreation(getTestCaseData());
-        page.log("4. Create new task")
+        page.log("6. Create new task")
                 .addTask()
                 .createTask()
                 .inputData(getTestCaseData())
-                .log("5. Verify that the task has been created")
+                .log("7. Verify that the task has been created")
                 .verifySuccessCreation(getTestCaseData())
-                .log("6. Delete the created task")
+                .log("8. Delete the created task")
                 .deleteTask()
-                .log("7. Verify that the task has been deleted")
+                .log("9. Verify that the task has been deleted")
                 .verifySuccessDeletion(getTestCaseData());
     }
 }

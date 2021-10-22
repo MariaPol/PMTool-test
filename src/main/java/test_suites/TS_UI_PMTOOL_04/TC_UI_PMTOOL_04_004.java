@@ -28,10 +28,10 @@ public class TC_UI_PMTOOL_04_004 extends BaseTest {
                 .log("7. Verify that the task has been created")
                 .verifySuccessCreation(getTestCaseData(1))
                 .log("8. Navigate to dashboard page and create a new task");
-        page.log("10. Move the task to a different status.")
+        page.log("9. Move the task to a different status.")
                 .viewTasks()
                 .moveTask(getTestCaseData(2))
-                .log("11. Verify that the task has move")
+                .log("10. Verify that the task has move")
                 .verifyMoveTask(getTestCaseData(1), getTestCaseData(2));
     }
 }
