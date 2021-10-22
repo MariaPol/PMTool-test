@@ -14,7 +14,7 @@ Chrome v95.0.4638.548
 
 ### Building and Running it locally
 
-By using an IDE (eclipse/intelij):
+By using an IDE (eclipse/intelij) import the pom.xml as project:
 
 You can build an executable jar-file by executing the following command:
 
